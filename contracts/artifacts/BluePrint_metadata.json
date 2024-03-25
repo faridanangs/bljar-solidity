@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15_Abstract.sol": "BluePrint"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15_Abstract.sol": {
+			"keccak256": "0xbf8aa7a2d6912fe820c50619d19529565c126eb575b505dcfe990f6f217da02c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bc4737a843abce1bb3184e4ec39361a7c97872a0da9b274e3a6947edd773f80",
+				"dweb:/ipfs/QmPsUoZT3FAJn4WmwWhHBgqypw4sMBk5U5jZB3DkGjKvEB"
+			]
+		}
+	},
+	"version": 1
+}

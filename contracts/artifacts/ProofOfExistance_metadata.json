@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "checkDocument",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "notarize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16_NotarisLatihan.sol": "ProofOfExistance"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/16_NotarisLatihan.sol": {
+			"keccak256": "0x9bfd9727699f7e427841b6f78ca27b768581f1d330f401183831bedfc8c11c45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://282dda9f82b8b653f4eb8e71c1c254087f3c905d57582492b598f42c865fe909",
+				"dweb:/ipfs/QmNmgDbtwrRtoVu7HvRT4CdoLir4dXuCgzSMm2w7rLqDcH"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "TransferUang",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LatihanContract.sol": "LatihanContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LatihanContract.sol": {
+			"keccak256": "0x615e0166a0539a35d4e44d44e8e87d1f072f12834045c7a2fd1edcaf4631d284",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d11ba273054eb6d722be201fd6252765ad18246a5ed648b0f2579c4e8ae3fe64",
+				"dweb:/ipfs/QmXFDHA7Vf5EWc7spPY4idZPaHb2UHQhsvF1P7eiCAmxtm"
+			]
+		}
+	},
+	"version": 1
+}

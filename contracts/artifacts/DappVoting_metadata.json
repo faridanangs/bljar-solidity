@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "namaPeserta",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "noPeserta",
+						"type": "uint256"
+					}
+				],
+				"name": "berikanSuara",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_pemilih",
+						"type": "address"
+					}
+				],
+				"name": "bolehMemilih",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lihatNamaPemenang",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pemenangPemilihanSuara",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indexPemenang",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pemilihs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pemilih",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "jmlhPilih",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "sudahMemilih",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dipilih",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pesertas",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "suara",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_latihanEvoteApp.sol": "DappVoting"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_latihanEvoteApp.sol": {
+			"keccak256": "0xd4c0e5b217259a13ad55464ec4a3f7776e4497daedcb178df69aa28976fb376e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f95fb7dd553405e47abe75159fd21a280bf0821be8a52d179c7f60cf9b02a6e",
+				"dweb:/ipfs/QmWYqEPWTQZcBX9rAnjxevPhusMUAtDgfDTveREGd68nq1"
+			]
+		}
+	},
+	"version": 1
+}

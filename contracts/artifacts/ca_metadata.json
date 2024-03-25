@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/13_HirarkiInheritance.sol": "ca"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/13_HirarkiInheritance.sol": {
+			"keccak256": "0xb620006e33a5db3a14de83721844d5cd0140bc16d040ec71583ecbf39b2ee41c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6ff6720c621b7556bf4585f1b201d1809128a4131252c8d66490302ee354dc23",
+				"dweb:/ipfs/QmNPg4Cm2XzrGpHqQhCSNkRnPKfqrgpYSru56RDWmg2fUd"
+			]
+		}
+	},
+	"version": 1
+}

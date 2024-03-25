@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/18_AbiEncode.sol": "A"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/18_AbiEncode.sol": {
+			"keccak256": "0xf7c1a1346b9a99b3d23acbb6fbc42bdfa96f20891d67300e5335a4491835c4be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63c6f8bc86cea8e5c8c1150e8b1be3ee74ea0501097a872ce053ba745a42c040",
+				"dweb:/ipfs/QmfEsBpXuG358JbLFRuGuwiyJRdm2YPFv9ZT1J7UifTzNn"
+			]
+		}
+	},
+	"version": 1
+}

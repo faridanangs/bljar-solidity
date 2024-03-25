@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16_NotarisLatihan.sol": "ProofO"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/16_NotarisLatihan.sol": {
+			"keccak256": "0x679de6d1c46067fcaa161d443f7951e05872ae0a39f0f5cc991f8b478d0e6c58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d69000de67a098916115348928f39403407a9ec1200f3e1e11d57941a0b76e20",
+				"dweb:/ipfs/QmTfEXKbTH13JDC5yuA7Ka9nUmVs9RPkqfnsH5ybdxDuvu"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_latihanEvoteApp.sol": "DAp"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_latihanEvoteApp.sol": {
+			"keccak256": "0x96107b4c34d75777ac7d93678d3a2c35e16ff93688b01782da3451bf44e34e72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35bfd83bf17f5b954ae6b42cba045567dde68ccf798f06faed260c3f780b6897",
+				"dweb:/ipfs/QmQkuMSrwMZsfD3fsMXBRkmmY81sYgMt8oryHAkiV3Cqm3"
+			]
+		}
+	},
+	"version": 1
+}

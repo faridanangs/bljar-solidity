@@ -1,0 +1,34 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "document",
+				"type": "string"
+			}
+		],
+		"name": "checkDocument",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "document",
+				"type": "string"
+			}
+		],
+		"name": "notarize",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LatihanContract.sol": "LatihanCOntrct"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LatihanContract.sol": {
+			"keccak256": "0xa667839dbb24c6936936ba2b5c95dd2c73b010594ce8b9fa8107ed3f62786856",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2768aad86091e50ee692d1491ecc2bd11e728517db4d3d4b017f49931a8287f5",
+				"dweb:/ipfs/QmXj619DjzWrsjzry9q7Vgtpgqoj3Tsh8gg2CQvFBdUTmW"
+			]
+		}
+	},
+	"version": 1
+}

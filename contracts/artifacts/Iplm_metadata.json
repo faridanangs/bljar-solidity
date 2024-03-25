@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15_Abstract.sol": "Iplm"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15_Abstract.sol": {
+			"keccak256": "0x8ef451f8b8f36490ec1f21b93c740751884da10ad29dc32b03909ce5ac2588fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14ef7e28572e23709da9d683bf89a61e2d6056c17f7c3f300a4815e44a30fd65",
+				"dweb:/ipfs/QmZyBtYQ9neFUHnZL5ew5LZvoARBMYMJKbw9XaqMGRm5NC"
+			]
+		}
+	},
+	"version": 1
+}
